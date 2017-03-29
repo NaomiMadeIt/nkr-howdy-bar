@@ -1,0 +1,30 @@
+/* Make sure your slectors are specific to just the howdy bar */
+.howdy-bar{
+  background-color: hotpink;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999999;
+  text-align: center;
+  border-bottom: solid 3px #98FF98;
+  padding: .2em;
+  color: white;
+}
+/* Push it down only when the admin bar is showing */
+.admin-bar .howdy-bar{
+  top: 32px;
+}
+.header-bar{
+  margin-top: 34px;
+}
+.howdy-button{
+  background: grey;
+  border-radius: 4px;
+  padding: .2em .8em;
+  margin: 0 .5em;
+  display: inline-block;
+}
+.howdy-button:hover{
+  background: white;
+}
